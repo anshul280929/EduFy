@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Libertinus Mono", monospace;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
