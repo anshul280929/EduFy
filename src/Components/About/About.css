@@ -1,0 +1,50 @@
+.about{
+    margin:100px auto; /*100px from top and bottom, auto for left and right*/
+    display: flex; /*Use flexbox for layout*/
+    align-items: center; /*Center items vertically*/
+    justify-content: space-between; /*Space items evenly*/
+    width: 90%; /*90% of the viewport width*/
+
+}
+
+.about-left{
+    flex-basis: 40%; /*Left section takes up 40% of the container width*/
+    position:relative; /*Position relative to allow absolute positioning of the play icon*/
+
+}
+
+.about-right{
+    flex-basis: 56%; /*Right section takes up 56% of the container width*/
+}
+
+.about-img{
+    width: 100%; /*Make the image take full width of its container*/
+    border-radius: 10px; /*Round the corners of the image*/
+}
+
+.play-icon{
+    width:60px;
+    position:absolute; /*Position the play icon absolutely within the container*/
+    top: 50%; /*Align the play icon to the vertical center*/
+    left: 50%; /*Align the play icon to the horizontal center*/
+    transform: translate(-50%, -50%); /*Center the play icon using transform*/
+}
+
+.about h3{
+    font-weight:600;
+    font-size: 16px;
+    color: #212ea0; /*Set the text color*/
+}
+
+.about h2{
+    font-size: 35px; /*Set the font size to 32px*/
+    color: #000F38; /*Set the text color*/
+    margin-top: 10px 0; /*10px margin from the top, 0 from the bottom*/
+    max-width: 400px; /*Limit the width of the heading*/
+}
+
+.about p{
+    font-size: 15px; /*Set the font size to 15px*/
+    color: #676767; /*Set the text color*/
+    margin-top: 15px; /*15px margin from the top*/
+}

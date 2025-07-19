@@ -1,0 +1,15 @@
+.title{
+    text-align: center; /*Center the title text*/
+    color: #212ea0; 
+    font-size: 15px; /*Set font size to 15px*/
+    font-weight: 600; /*Make the text bold*/
+    text-transform: uppercase; /*Make text uppercase*/
+    margin: 70px 0 30px 0; /*70px from top, 30px from bottom*/
+}
+
+.title h2{
+    font-size: 32px;
+    color: #000F38;
+    margin-top: 5px; /*5px margin from the top*/
+    text-transform: none; /*Keep the text in normal case*/
+}

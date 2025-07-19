@@ -5,7 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 0px;/* 4px top and bottom, 0px left and right*/
+    padding: 4px 0;/* 4px top and bottom, 0px left and right*/
     position: fixed;
     top: 0;
     left: 0;
@@ -20,4 +20,13 @@ nav ul li{
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
+}
+.btn{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dark-nav{
+    background: #212ea0;
+    transition: 0.5s;
 }
