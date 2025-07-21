@@ -1,0 +1,69 @@
+.testimonials{
+    margin: 80px auto; /*80px from top and bottom, auto for left and right*/
+    padding: 0 80px; /*80px padding on left and right*/
+    position: relative; /*Position relative to allow absolute positioning of elements*/
+}
+
+.next-btn, .back-btn{
+    position: absolute; /*Position the buttons absolutely within the testimonials section*/
+    top: 50%; /*Align the buttons to the vertical center*/
+    right: 0; /*Align the buttons to the right side*/
+    transform: translateY(-50%); /*Center the buttons vertically using transform*/
+    width: 50px; /*Set the width of the buttons*/
+    border-radius: 50%; /*Round the corners of the buttons*/
+    border: none; /*Remove default border*/
+    padding: 15px; /*Add padding to the buttons*/
+    cursor: pointer; /*Change cursor to pointer on hover*/
+    background: #212EA0; /*Set the background color to blue*/
+}
+
+.back-btn{
+    left: 0; /*Align the back button to the left side*/
+    right: auto; /*Reset the right alignment*/
+}
+
+.slider{
+    overflow: hidden; /*Hide overflow to prevent scrollbars*/
+}
+
+.slider ul{
+    display: flex; /*Use flexbox for layout*/
+    transition: transform 0.5s ease; /*Smooth transition for sliding effect*/
+    width: 200%; /*Make the slider take full width of its container*/
+    transform: translateX(-15%);
+}
+
+.slider ul li{
+    list-style: none; /*Remove default list style*/
+    width: 50%; /*Each testimonial takes up 50% of the slider width*/
+    padding: 20px; /*Add padding to the testimonials*/
+
+}
+
+.slide{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05); /*Add a subtle shadow to the testimonials*/
+    padding: 40px; /*Add padding to the testimonials*/
+    border-radius: 10px; /*Round the corners of the testimonials*/
+    color: #676767; /*Set the text color*/
+    line-height: 1.4; /*Set line height for better readability*/
+
+}
+
+.slide img{
+    width: 65px;
+    border-radius: 50%; /*Round the corners of the profile image*/
+    margin-right: 10px; /*Add margin to the right of the profile image*/
+    border: 4px solid #212EA0; /*Add a border to the profile image*/
+}
+
+.user-info{
+    display: flex; /*Use flexbox for layout*/
+    align-items: center; /*Center items vertically*/
+    margin-bottom: 20px; /*Add margin to the bottom of the user info section*/
+    font-size: 15px; /*Set font size for the user info*/
+}
+
+.user-info h3{
+    font-weight: 600; /*Set font weight for the user name*/
+    color: #212EA0; /*Set the text color for the user name*/
+}

@@ -49,3 +49,8 @@ a{
   background: #212121;
   color: #fff;
 }
+
+.btn.dark-btn{
+  background-color: #212EA0;
+  color: #fff;
+}

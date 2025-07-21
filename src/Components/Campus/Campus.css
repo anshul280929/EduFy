@@ -1,0 +1,19 @@
+.campus{
+    margin:80px auto; /*80px from top and bottom, auto for left and right*/
+    width: 90%; /*90% of the viewport width*/
+    text-align: center; /*Center the text*/
+}
+
+.gallery{
+    display: flex; /*Use flexbox for layout*/
+    align-items: center; /*Center items vertically*/
+    justify-content: space-between; /*Space items evenly*/
+    flex-wrap: wrap; /*Allow items to wrap to the next line if necessary*/
+    margin-bottom: 40px;
+}
+
+.gallery img{
+    width: 23%; /*Each image takes up 31% of the container width*/
+    border-radius: 10px; /*Round the corners of the images*/
+    margin-bottom: 20px; /*20px margin from the bottom*/
+}

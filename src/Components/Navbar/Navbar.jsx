@@ -7,7 +7,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      (window.scrollY > 50)? setIsDark(true) : setIsDark(false);
+      (window.scrollY > 500)? setIsDark(true) : setIsDark(false);
     });
   }, []); 
 
