@@ -1,12 +1,51 @@
-# React + Vite
+🎓 Edufy – Educational Platform
+Edufy is a modern and responsive educational platform built using React.js and Tailwind CSS. It showcases various front-end concepts through real-world features like interactive navigation, testimonial sliders, and contact forms — all packed into a visually appealing design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+🔗 Link to Live Demo
 
-Currently, two official plugins are available:
+📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Features
+✅ Fully responsive Navbar with scroll-based background change
 
-## Expanding the ESLint configuration
+🎯 Hero Section with visual impact and intro content
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧑‍🎓 "Our Program" Section with hover effects
+
+💬 Testimonial Slider using useRef()
+
+📩 Contact Form powered by Web3Forms – queries sent directly to your email
+
+🔗 Smooth scrolling between sections
+
+💡 Clean folder structure and reusable components
+
+🛠️ Tech Stack
+React.js
+
+Tailwind CSS
+
+Vite
+
+Web3Forms (for contact form submissions)
+
+HTML5 + CSS3
+
+JavaScript (ES6+)
+
+🔧 Installation & Setup
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/edufy.git
+
+# Navigate to the project directory
+cd edufy
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
