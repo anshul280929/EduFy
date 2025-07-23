@@ -1,0 +1,14 @@
+.footer{
+    margin:10px auto; /*10px from top and bottom, auto for left and right*/
+    display: flex; /*Use flexbox for layout*/
+    align-items: center; /*Center items vertically*/
+    justify-content: space-between; /*Space items evenly*/
+    border-top: 1px solid #797979; /*Add a top border to the footer*/
+    padding: 15px 0; /*Add padding to the top and bottom of the footer*/
+}
+
+.footer ul li{
+    list-style: none; /*Remove default list style*/
+    display: inline-block; /*Display list items inline*/
+    margin: 0 15px; /*Add margin to the left and right of each list item*/ 
+}
