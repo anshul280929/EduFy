@@ -2,12 +2,14 @@ import React from 'react';
 import './About.css';
 import aboutImage from '../../assets/about.png'; // Assuming you have an image for the about section
 import playIcon from '../../assets/play-icon.png'; // Assuming you have a play icon for the video
-const About = () => {
+const About = ({setPlayState}) => {
   return (
     <div className="about">
       <div className='about-left'>
         <img src={aboutImage} alt="" className='about-img'></img>
-        <img src={playIcon} alt="" className='play-icon'></img>
+        <img src={playIcon} alt="" className='play-icon' onClick={()=>
+          {setPlayState(true)}
+          }></img>
       </div>
       <div className='about-right'>
         <h3>About University</h3>

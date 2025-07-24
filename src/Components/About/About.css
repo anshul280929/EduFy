@@ -28,6 +28,7 @@
     top: 50%; /*Align the play icon to the vertical center*/
     left: 50%; /*Align the play icon to the horizontal center*/
     transform: translate(-50%, -50%); /*Center the play icon using transform*/
+    cursor: pointer; /*Change cursor to pointer on hover*/
 }
 
 .about h3{
