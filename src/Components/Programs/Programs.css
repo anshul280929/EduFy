@@ -46,3 +46,18 @@
     opacity: 1; /*Show the caption on hover*/
     padding-top: 0;
 }
+
+/* media queries */
+@media (max-width: 650px) {
+    .programs{
+        flex-direction: column; /*Stack programs vertically on smaller screens*/
+        align-items: center; /*Center items horizontally*/
+    }
+    .program{
+        flex-basis: 100%; /*Each program takes full width on smaller screens*/
+        margin-bottom: 20px; /*Add space between programs*/
+    }
+    .caption{
+        padding-top: 0; /*Remove top padding on smaller screens*/
+    }
+}

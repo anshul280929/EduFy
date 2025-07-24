@@ -48,3 +48,20 @@
     color: #676767; /*Set the text color*/
     margin-top: 15px; /*15px margin from the top*/
 }
+
+/* media queries */
+@media (max-width: 800px) {
+    .about{
+        flex-direction: column; /*Stack sections vertically on smaller screens*/
+    }
+    .about-left, .about-right{
+        flex-basis: 100%; /*Each section takes full width on smaller screens*/
+        margin-bottom: 20px; /*Add space between sections*/
+    }
+    .about-left{
+        order: 2; /*Move the left section below the right section on smaller screens*/
+    }
+    .play-icon{
+        width: 50px; /*Reduce the size of the play icon on smaller screens*/
+    }
+}

@@ -58,3 +58,17 @@
     display: block;
     margin: 20px 0; /*20px margin from the top and bottom*/
 }
+
+/* media queries */
+@media (max-width: 700px) {
+    .contact{
+        display: block; /*Stack columns vertically on smaller screens*/
+    }
+    .contact-col{
+        padding: 20px; /*Add padding to the columns*/
+    }
+    .contact form input,
+    .contact form textarea{
+        width: 90%; /*Make input and textarea take 90% width on smaller screens*/
+    }
+}

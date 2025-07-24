@@ -67,3 +67,44 @@
     font-weight: 600; /*Set font weight for the user name*/
     color: #212EA0; /*Set the text color for the user name*/
 }
+
+/* media queries */
+@media (max-width: 800px) {
+    .testimonials{
+        padding: 0 40px; /*Reduce padding on smaller screens*/
+    }
+    .next-btn, .back-btn{
+        width: 35px; /*Reduce button width on smaller screens*/
+        padding: 10px; /*Reduce padding on buttons*/
+    }
+    .testimonials ul{
+        padding: 10px; /*Reduce padding on testimonials list*/
+    }
+    .slide{
+        padding:10px; /*Reduce padding on testimonials*/
+    }
+    .slide img{
+        width:50px; /*Reduce profile image size on smaller screens*/
+        border: 3px solid #212EA0; /*Adjust border size on profile image*/
+    }
+    .slider ul li{
+        width: 100%; /*Each testimonial takes full width on smaller screens*/
+    }
+    .slider ul{
+        width: 100%; /*Make the slider take full width of its container on smaller screens*/
+    }
+}
+
+@media (max-width: 600px) {
+    .user-info{
+        display: block; /*Stack user info vertically on smaller screens*/
+        margin: 10px 0; /*Add margin to the top and bottom of user info*/
+        font-size: 12px; /*Reduce font size for user info on smaller screens*/
+    }
+    .user-info h3{
+        font-size: 16px; /*Reduce font size for user name on smaller screens*/
+    }
+    .slider p{
+        font-size: 12px; /*Reduce font size for testimonials on smaller screens*/
+    }
+}

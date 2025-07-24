@@ -12,3 +12,17 @@
     display: inline-block; /*Display list items inline*/
     margin: 0 15px; /*Add margin to the left and right of each list item*/ 
 }
+
+/* media queries */
+@media (max-width: 600px) {
+    .footer{
+        display: block; /*Stack footer items vertically on smaller screens*/
+        text-align: center; /*Center the text in the footer*/
+    }
+    .footer ul li{
+        margin: 10px; /*Add margin to the top and bottom of each list item*/
+    }
+    .footer ul{
+        margin-top:10px; /*Add margin to the top of the footer list*/
+    }
+}
